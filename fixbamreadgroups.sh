@@ -1,3 +1,5 @@
+#Sometimes GATK hates the fact that you don't have read groups! This adds arbitrary ones based on the file name
+
 module load bwa picard gatk
 
 cd /pine/scr/l/s/lswhiteh/yeast_hybrids/fastas/abbababba/reads
