@@ -1,3 +1,6 @@
+" This is a nice collection of vim plugins I use! Go download
+" vundle and then do the basic install they have on the repo
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
