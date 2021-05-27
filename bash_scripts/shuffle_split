@@ -1,0 +1,2 @@
+#Quick way to randomly shuffle a csv by rows and then partition into two files (xaa and xab)
+shuf all_samps.csv | split -l $(( $(wc -l <all_samps.csv) * 70 / 100 ))
